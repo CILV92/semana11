@@ -3,9 +3,9 @@ public class Programa1_Busqueda2D {
     public static void main(String[] args) {
         // Declarar una matriz 3x3 de enteros
         int[][] matriz = {
-            {10, 25, 7},
-            {14, 33, 18},
-            {9, 42, 31}
+            {15, 20, 9},
+            {16, 22, 14},
+            {7, 32, 21}
         };
         
         // Mostrar la matriz
@@ -14,7 +14,7 @@ public class Programa1_Busqueda2D {
         System.out.println();
         
         // Buscar varios valores para demostrar el funcionamiento
-        int[] valoresBuscar = {25, 42, 99, 10, 50};
+        int[] valoresBuscar = {20, 32, 88, 15, 75};
         
         for (int valor : valoresBuscar) {
             int[] posicion = buscarEnMatriz(matriz, valor);
